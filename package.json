@@ -1,0 +1,15 @@
+{
+  "name": "comfyui-group-selection",
+  "version": "1.0.0",
+  "description": "Create a new group of nodes.",
+  "type": "module",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node test/index.js"
+  },
+  "author": "shinichi39 <shinich39@gmail.com>",
+  "license": "MIT"
+}
