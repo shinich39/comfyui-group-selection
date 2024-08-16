@@ -9,7 +9,6 @@ Bypass nodes in group.
 
 ## Usage
 
-Select nodes to create a new group.  
-Press Ctrl + 0-9  
+Select nodes and press Ctrl + 0-9 to create new group.  
 Press 0-9 to select nodes in group.  
 Double presss 0-9 to bypass nodes in group.  
