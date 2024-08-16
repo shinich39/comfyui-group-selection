@@ -65,7 +65,7 @@ function toggleNodes(nodes) {
 ;(() => {
   try {
     let prevGroup = -1, 
-        prevTime = Date.now();
+        prevTime = 0;
 
     function keydownEvent(e) {
       try {
@@ -107,6 +107,8 @@ function toggleNodes(nodes) {
             e.preventDefault();
             if (prevGroup == key && prevTime + DOUBLE_PRESS_DELAY >= Date.now()) {
               toggleNodes(groupNodes);
+              prevGroup = -1;
+              prevTime = 0;
             } else {
               deselectAll();
               selectNodes(groupNodes);
